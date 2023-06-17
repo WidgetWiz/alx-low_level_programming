@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers of base 10
+ * main - print numbers from 0 to 9
  *
  * Return: Always 0 (Success)
  */
@@ -10,8 +10,8 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
+		putchar(i);
 	}
-	putchar('\n');
+	putchat('\n');
 	return (0);
 }
