@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet small and cap
+ * main - Prints the alphabet
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char chars[52] = "abcdfghijklmnoprstuvwxyz";
+        char chars[26] = "abcdfghijklmnoprstuvwxyz";
         int i;
 
         for (i = 0; i < 24; i++)
@@ -16,3 +16,4 @@ char chars[52] = "abcdfghijklmnoprstuvwxyz";
         }
         putchar('\n');
         return (0);
+}
