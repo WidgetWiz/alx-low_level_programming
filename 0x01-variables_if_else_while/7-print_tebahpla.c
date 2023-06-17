@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maint - Prints alpa in reverse
+ * main - Prints alpa in reverse
  *
  * Return: Always 0 (Success)
  */
