@@ -1,18 +1,18 @@
-#include "main.h"
 #include <stdio.h>
+#include "dog.h"
 
 /**
- * main - check the code.
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char c;
+struct dog my_dog;
 
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
-    return (0);
+my_dog.name = "Poppy";
+my_dog.age = 3.5;
+my_dog.owner = "Bob";
+printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
+return (0);
 }
